@@ -4,7 +4,7 @@
 /**
  * _abs - finds the absolute value of a number
  *
- *@int: user input
+ *@n: user input
  *
  * Return: always 0
  */
