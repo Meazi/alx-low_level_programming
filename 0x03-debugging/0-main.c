@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * main - tests function that prints if nteger is positive or negarive
+ * void: nothing to return
  * Return: 0
  */
 int main(void)
