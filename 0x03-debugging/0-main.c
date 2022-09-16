@@ -1,16 +1,14 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0
+ * main - tests function that prints if nteger is positive or negarive
+ * Return: 0
  */
 int main(void)
 {
 	int i;
 
 	i = 0;
+
 	positive_or_negative(i);
 	return (0);
 }
