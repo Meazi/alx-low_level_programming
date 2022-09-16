@@ -1,9 +1,10 @@
 #include "main.h"
 /**
  * main - tests function that prints if nteger is positive or negarive
- * @i: nothing to return
+ * 
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
