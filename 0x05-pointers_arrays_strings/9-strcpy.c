@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+#include <stdio.h>
 /**
  * *_strcpy - copy a string pointed by src
  * @dest: copy to
@@ -8,11 +10,6 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
-
-	for (; src[i] != '\0'; i++)
-	{
-		dest[i] = src[i];
-	}
+	strcpy(dest, src);
 	return (dest);
 }
