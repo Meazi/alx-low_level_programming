@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_arrays - print n elements of an array
+ * print_array - print n elements of an array
  * @a: input
  * @n: input
  * Return: nothing
