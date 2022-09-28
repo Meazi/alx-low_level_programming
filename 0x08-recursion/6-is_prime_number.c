@@ -13,7 +13,6 @@ int prime_check(int f, int p)
 		return (0);
 	else if (f > p / 2)
 		return (1);
-	else
 	return (prime_check(f + 1, p));
 }
 
