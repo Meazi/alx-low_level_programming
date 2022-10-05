@@ -10,10 +10,12 @@ int main(int argc, char *argv[])
 {
 	int i, addition = 0;
 
-	if (argc == 1 || argc < 0)
+	if (argc == 1)
 	{
 		printf("%d\n", 0);
 	}
+	if (argc < 1)
+		return (0);
 	for (i = 1; i < argc; i++)
 	{
 		if (!atoi(argv[i]))
