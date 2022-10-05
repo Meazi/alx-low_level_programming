@@ -12,12 +12,12 @@ int main(int argc, char *argv[])
 
 	if (argv == NULL)
 	{
-		return (0);
+		return (1);
 	}
 	if (argc == 1 || argc > 3)
 	{
 		printf("%s\n", "Error");
-		return (0);
+		return (1);
 	}
 	result = (atoi(argv[1])) * (atoi(argv[2]));
 	printf("%d\n", result);
