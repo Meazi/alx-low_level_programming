@@ -11,6 +11,11 @@ int main(int argc, char *argv[])
 
 	if (argv[i] == NULL)
 		return (1);
-	printf("%d\n", argc);
+	if (argc == 1)
+		return (0);
+	else
+	{
+	printf("%d\n", argc - 1);
+	}
 	return (0);
 }
