@@ -7,10 +7,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 0;
 
-	if (argv[i] == NULL)
-		return (1);
+	if (argv == NULL)
+		return (0);
 	if (argc == 1)
 		return (0);
 	printf("%d\n", argc - 1);
