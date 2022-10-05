@@ -7,11 +7,11 @@
  */
 int main(int argc, char *argv[])
 {
-
 	if (argv == NULL)
 		return (0);
 	if (argc == 1)
-		return (0);
+		printf("%d\n", 0);
+	else
 	printf("%d\n", argc - 1);
 	return (0);
 }
