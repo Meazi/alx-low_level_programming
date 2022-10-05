@@ -23,7 +23,6 @@ int main(int argc, char *argv[])
 			printf("%s\n", "Error");
 			return (1);
 		}
-		else
 		addition = addition + (atoi(argv[i]));
 	}
 	printf("%d\n", addition);
