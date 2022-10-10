@@ -1,6 +1,6 @@
 #ifndef Header
 #define Header
-struct dog 
+struct dog
 {
 	char *name;
 	float age;
