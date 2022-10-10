@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "dog.h"
 /**
  * init_dog - structure initialser
@@ -9,9 +11,14 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	dog *d;
+	if (d == NULL)
+	{
+		d = malloc(sizeof(struct dog));
+		if (d == NULL)
+			return;
+	}
 
-	dog->name = name;
-	dog->age = age;
-	dog->owner = owner;
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
 }
