@@ -3,6 +3,7 @@
 /**
  * print_dog - print the struct dog
  * @d: parameter passed from main
+ * Return: nothing
  */
 
 
