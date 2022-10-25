@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 /**
  * insert_nodeint_at_index - a function that inserts a node at a specified index
  * @head: pointer to the first node of a list
