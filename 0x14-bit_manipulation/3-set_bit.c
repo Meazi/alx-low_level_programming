@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * set_bit - a function that sets the value of a bit to one
  * @n: pointer to number
